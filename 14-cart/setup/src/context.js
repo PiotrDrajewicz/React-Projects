@@ -49,7 +49,6 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     dispatch({ type: "GET_TOTALS" });
-    dispatch({ type: "adsf" });
   }, [state.cart]);
 
   return (
